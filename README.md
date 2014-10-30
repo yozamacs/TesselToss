@@ -37,11 +37,6 @@ Use `tessel run publish_xyz.js` to run while connected via USB. Note that the en
 `tessel erase` will wipe the filesystem.
 
 
-Motivation
-----------
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
 Installation
 ------------
 
