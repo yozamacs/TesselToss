@@ -36,14 +36,12 @@ print "Raw data:"
 print rawData
 
 
-time=0
 chartDataX = []
 chartDataY = []
 
-for item in rawData:
+for time, item in enumerate(rawData):
     chartDataX.append((time,item[0]))
     chartDataY.append((time,item[1]))
-    time+=1
 
 print "chart data: "
 print chartDataX

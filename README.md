@@ -11,9 +11,9 @@ PubNub + Tessel Hack Day 2014
 What it is
 --------
 
-At the PubNub + Tessel Hack Day, our team, the Tesselation of Smaug, won grand prize for our product, the TesselToss. By taking precise measurement, this "smart ball" would graph its movement in realtime, aiding in data collection for various physics tests.
+The TesselToss is a microcontroller-powered ball with an accelerometer inside for easy physics lab experiments. Throw the ball, and the (x,y,z) position data gets published to PubNub. TesselToss subscribes to the PubNub channel and plots the data. Students can access the data to measure gravity, coefficients for projectile motion, among other physical properties.
 
-This code is the source of the project, both "Tessel-end" and front-end.
+Winner of the Grand Prize at the Tessel-PubNub Hackathon.  Built by The Tessellation of Smaug.
 
 Usage
 ------------
