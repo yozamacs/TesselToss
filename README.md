@@ -36,6 +36,13 @@ Use `tessel run publish_xyz.js` to run while connected via USB. Note that the en
 
 `tessel erase` will wipe the filesystem.
 
+### TesselToss
+
+Replace channel name, publish, and suscribe keys with your personal ones. Make sure that Tessel is connected to battery and wifi. Wrap Tessel in paper towels or other material for protection. 
+
+Make sure that channel is connected before throwing the Tessel. Run python program and throw Tessel across a short distance at the same time. You can change the data collection time by changing the dataCollectionInterval in graphy.py. 
+
+After data collection, the program will print "I'm done" to the terminal, and you can see the graph of the X and Y coordinates by opening the XY_chart.svg file in a web browser on your computer.
 
 Installation
 ------------
